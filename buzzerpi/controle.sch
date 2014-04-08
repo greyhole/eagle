@@ -892,15 +892,15 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="X1" gate="-5" x="27.94" y="58.42"/>
 <instance part="X1" gate="-6" x="27.94" y="53.34"/>
 <instance part="X1" gate="-7" x="27.94" y="48.26"/>
-<instance part="X2" gate="-1" x="121.92" y="20.32" rot="R90"/>
-<instance part="X2" gate="-2" x="127" y="20.32" rot="R90"/>
+<instance part="X2" gate="-1" x="124.46" y="17.78" rot="R90"/>
+<instance part="X2" gate="-2" x="129.54" y="17.78" rot="R90"/>
 <instance part="X3" gate="-1" x="157.48" y="88.9" rot="R270"/>
 <instance part="X3" gate="-2" x="152.4" y="88.9" rot="R270"/>
-<instance part="U$1" gate="G$2" x="160.02" y="76.2" rot="R270"/>
+<instance part="U$1" gate="G$2" x="160.02" y="76.2" rot="R90"/>
 <instance part="U$1" gate="G$1" x="139.7" y="78.74" rot="R90"/>
-<instance part="U$2" gate="G$2" x="160.02" y="55.88" rot="R270"/>
+<instance part="U$2" gate="G$2" x="160.02" y="55.88" rot="R90"/>
 <instance part="U$2" gate="G$1" x="139.7" y="58.42" rot="R90"/>
-<instance part="U$3" gate="G$2" x="160.02" y="35.56" rot="R270"/>
+<instance part="U$3" gate="G$2" x="160.02" y="35.56" rot="R90"/>
 <instance part="U$3" gate="G$1" x="139.7" y="35.56" rot="R90"/>
 <instance part="X4" gate="-1" x="172.72" y="66.04" rot="R180"/>
 <instance part="X4" gate="-2" x="172.72" y="60.96" rot="R180"/>
@@ -973,55 +973,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="104.14" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="25"/>
-<pinref part="X1" gate="-1" pin="KL"/>
-<wire x1="81.28" y1="71.12" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="I2"/>
-<pinref part="X1" gate="-2" pin="KL"/>
-<wire x1="50.8" y1="58.42" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="I3"/>
-<pinref part="X1" gate="-3" pin="KL"/>
-<wire x1="50.8" y1="55.88" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="I4"/>
-<pinref part="X1" gate="-4" pin="KL"/>
-<wire x1="50.8" y1="53.34" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="I5"/>
-<pinref part="X1" gate="-5" pin="KL"/>
-<wire x1="50.8" y1="50.8" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="I6"/>
-<pinref part="X1" gate="-6" pin="KL"/>
-<wire x1="50.8" y1="48.26" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="I7"/>
-<pinref part="X1" gate="-7" pin="KL"/>
-<wire x1="50.8" y1="45.72" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="O4"/>
@@ -1029,73 +980,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="129.54" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="O7"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="50.8" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="O2"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="63.5" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="X2" gate="-1" pin="KL"/>
-<pinref part="IC1" gate="A" pin="GND"/>
-<wire x1="121.92" y1="25.4" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="X3" gate="-1" pin="KL"/>
-<pinref part="U$1" gate="G$2" pin="P@1"/>
-<wire x1="157.48" y1="83.82" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
-<junction x="157.48" y="78.74"/>
-<pinref part="U$2" gate="G$2" pin="P@1"/>
-<wire x1="154.94" y1="78.74" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
-<junction x="157.48" y="58.42"/>
-<pinref part="U$3" gate="G$2" pin="P@1"/>
-<wire x1="154.94" y1="58.42" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="U$2" gate="G$2" pin="S"/>
-<pinref part="X4" gate="-2" pin="KL"/>
-<wire x1="165.1" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="X4" gate="-1" pin="KL"/>
-<wire x1="167.64" y1="66.04" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$2" pin="S"/>
-<wire x1="167.64" y1="76.2" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="X4" gate="-3" pin="KL"/>
-<wire x1="167.64" y1="55.88" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$2" pin="S"/>
-<wire x1="167.64" y1="45.72" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="X2" gate="-2" pin="KL"/>
-<pinref part="IC1" gate="A" pin="CD+"/>
-<wire x1="127" y1="25.4" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="48.26" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
-<junction x="129.54" y="48.26"/>
-<wire x1="137.16" y1="22.86" x2="144.78" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="22.86" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="2"/>
@@ -1104,6 +990,11 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="58.42" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
 <junction x="144.78" y="58.42"/>
+<pinref part="IC1" gate="A" pin="CD+"/>
+<wire x1="144.78" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="22.86" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-2" pin="KL"/>
+<junction x="129.54" y="22.86"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1111,6 +1002,132 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="IC1" gate="A" pin="I2"/>
 <pinref part="SV1" gate="G$1" pin="20"/>
 <wire x1="104.14" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="25"/>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="81.28" y1="71.12" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I2"/>
+<wire x1="50.8" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="KL"/>
+<wire x1="48.26" y1="58.42" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I3"/>
+<wire x1="50.8" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="KL"/>
+<wire x1="45.72" y1="55.88" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I4"/>
+<wire x1="50.8" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-4" pin="KL"/>
+<wire x1="43.18" y1="53.34" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I5"/>
+<wire x1="50.8" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-5" pin="KL"/>
+<wire x1="40.64" y1="50.8" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I6"/>
+<wire x1="50.8" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-6" pin="KL"/>
+<wire x1="38.1" y1="48.26" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I7"/>
+<wire x1="50.8" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-7" pin="KL"/>
+<wire x1="35.56" y1="45.72" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="O2"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="O7"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="50.8" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="X2" gate="-1" pin="KL"/>
+<pinref part="IC1" gate="A" pin="GND"/>
+<wire x1="124.46" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="22.86" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="X3" gate="-2" pin="KL"/>
+<pinref part="U$3" gate="G$2" pin="S"/>
+<wire x1="152.4" y1="83.82" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="71.12" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="50.8" x2="152.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="30.48" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$2" pin="S"/>
+<wire x1="154.94" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="152.4" y="50.8"/>
+<pinref part="U$1" gate="G$2" pin="S"/>
+<wire x1="154.94" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<junction x="152.4" y="71.12"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U$1" gate="G$2" pin="P"/>
+<pinref part="X4" gate="-1" pin="KL"/>
+<wire x1="162.56" y1="76.2" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="76.2" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U$2" gate="G$2" pin="P"/>
+<pinref part="X4" gate="-2" pin="KL"/>
+<wire x1="162.56" y1="55.88" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="X4" gate="-3" pin="KL"/>
+<pinref part="U$3" gate="G$2" pin="P"/>
+<wire x1="167.64" y1="55.88" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="35.56" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
